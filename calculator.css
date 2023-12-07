@@ -1,0 +1,30 @@
+body{
+  background-color: black;
+}
+h3{
+  color: orange;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.number-button{
+  border: none;
+  background-color: rgb(48, 48, 48);
+  padding: 14px 15px;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.operator{
+  border: none;
+  background-color: orange;
+  padding: 14px 15px;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.js-calculate{
+  color:white;
+  font-size: 30px;
+}

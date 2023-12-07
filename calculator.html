@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> calculator</title>
+</head>
+ <link rel="stylesheet" href="css/calculator.css">
+<body> 
+ 
+
+  <h3> Mini Calculator</h3>
+  <p class="js-calculate"></p>
+  <p>
+    <button onclick="
+      updateCalcul('1');
+      " class="number-button">1</button>
+    <button onclick="
+    updateCalcul('2');
+    " class="number-button">2</button>
+    <button onclick="
+     updateCalcul('3');
+    " class="number-button">3</button>
+    <button onclick="
+     updateCalcul('+');
+    " class="operator">+</button>
+  </p>
+  <p>
+    <button onclick="
+     updateCalcul('4');
+    " class="number-button">4</button>
+    <button onclick="
+     updateCalcul('5');
+    " class="number-button">5</button>
+    <button onclick="
+    updateCalcul('6');
+    " class="number-button">6</button>
+    <button onclick="
+    updateCalcul('-'); 
+    " class="operator">-</button>
+  </p>
+  <p>
+    <button onclick="
+    updateCalcul('7');
+    " class="number-button">7</button>
+    <button onclick="
+    updateCalcul('8');
+    " class="number-button">8</button>
+    <button onclick="
+     updateCalcul('9');
+    " class="number-button">9</button>
+    <button onclick="
+     updateCalcul('*');
+    "class="operator" >*</button>
+  </p>
+  <p>
+    <button onclick="
+    updateCalcul('0');
+    " class="number-button">0</button>
+    <button onclick="
+    updateCalcul('.');
+    " class="number-button">.</button>
+    <button onclick="
+    calculate=eval(calculate);
+    displayCalculate.innerHTML=calculate;
+    localStorage.setItem('calculate', calculate);
+    " class="number-button">=</button>
+    <button onclick="
+     updateCalcul('/');
+    " class="operator">/</button>
+  </p>
+  <p>
+    <button onclick="
+     calculate = ' ';
+     displayCalculate.innerHTML= calculate;
+     localStorage.setItem('calculate', calculate);
+      "  class="number-button">clear</button>
+  </p>
+  <script src="javascript/calculator.js">
+    
+      
+  </script>
+</body>
+</html>
